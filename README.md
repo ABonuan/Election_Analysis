@@ -25,7 +25,7 @@ The analysis of the election show that:
   - Jefferson with 38,855 number of votes cast at 10.5% of the total votes.
   - Denver with 306,055 number of votes cast at 82.8% of the total votes.
   - Arapahoe with 24,801 number of votes cast at 6.7% of the total votes.
-- The county with the highest voter turnout was Denver with 306,055 number of votes cast at 82.8% of the total votes.
+- The county with the highest voter turnout was Denver with 306,055 number of votes cast at 82.8% of the total votes.\
 **The section of code that determined this was:**
 ```
  # 6f: Write a decision statement to determine the winning county and get its vote count.
@@ -43,7 +43,7 @@ The analysis of the election show that:
   - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 - The winner of the election was:
-  - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
+  - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.\
 **The section of code that determined the winning candidate was:**
 ```
  # Determine winning vote count, winning percentage, and candidate.
@@ -52,6 +52,7 @@ The analysis of the election show that:
             winning_candidate = candidate_name
             winning_percentage = vote_percentage
 ```
+The analysis can be found in [election_analysis](https://github.com/ABonuan/Election_Analysis/blob/master/analysis/election_analysis.txt).
 
 ## Election - Audit Summary
 This script, or code, was successfully run on a local election's results.  It's runtime is minimal, showing its efficiency on a large dataset.  It is a flexible code, which can be easily modified because it is readable with comments for each section of the code to tell us what a specific code accomplishes.  It can be modified to used on different districts in the state.  We can run the code on any elections results that each district sends over, as long as they are formatted with the same information \(with Ballot ID, County and Candidate\).
